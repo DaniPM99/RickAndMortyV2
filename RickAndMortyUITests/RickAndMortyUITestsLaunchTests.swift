@@ -2,7 +2,7 @@
 //  RickAndMortyUITestsLaunchTests.swift
 //  RickAndMortyUITests
 //
-//  Created by Daniel Parra Martin on 27/7/23.
+//  Created by Daniel Parra Martin on 30/7/23.
 //
 
 import XCTest

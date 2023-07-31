@@ -2,11 +2,10 @@
 //  RickAndMortyTests.swift
 //  RickAndMortyTests
 //
-//  Created by Daniel Parra Martin on 27/7/23.
+//  Created by Daniel Parra Martin on 30/7/23.
 //
 
 import XCTest
-@testable import RickAndMorty
 
 final class RickAndMortyTests: XCTestCase {
 
@@ -28,7 +27,7 @@ final class RickAndMortyTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }
