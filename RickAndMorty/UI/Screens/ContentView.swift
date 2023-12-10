@@ -6,21 +6,33 @@
 //
 
 import SwiftUI
+import Combine
+import UIKit
 
 struct ContentView: View {
+    
+    private let container: DIContainer
+    private let isRunningTests: Bool
+    
+    init(container: DIContainer, isRunningTests: Bool = ProcessInfo.processInfo.isRunningTests) {
+        self.container = container
+        self.isRunningTests = isRunningTests
+    }
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        Group {
+            if isRunningTests {
+                Text("Test")
+            } else {
+                CharacterList()
+                    .inject(container)
+            }
         }
-        .padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(container: .preview)
     }
 }
