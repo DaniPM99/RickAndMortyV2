@@ -116,6 +116,7 @@
 		78B4C1312A755B590034C77E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		78B4C1352A755F0B0034C77E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		78B4C1362A7563860034C77E /* SystemEventsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemEventsHandler.swift; sourceTree = "<group>"; };
+		78D054A52B25EC82007348F5 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		78EE1E6A2A781B2B00051CD5 /* SwapPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -171,6 +172,7 @@
 		7897E51B2A72E92000ACA133 = {
 			isa = PBXGroup;
 			children = (
+				78D054A52B25EC82007348F5 /* Readme.md */,
 				7897E5262A72E92000ACA133 /* RickAndMorty */,
 				7889AAEB2A76EEA400B2B5A7 /* RickAndMortyUITests */,
 				7889AAFA2A76EEB100B2B5A7 /* RickAndMortyTests */,
